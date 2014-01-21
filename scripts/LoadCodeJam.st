@@ -1,11 +1,13 @@
 NonInteractiveTranscript stdout install.
 
-Gofer new
-      url: 'http://ss3.gemstone.com/ss/FileTree';
-      package: 'ConfigurationOfFileTree';
-      load.
-(Smalltalk at: #ConfigurationOfFileTree) load.
+Gofer new 
+	smalltalkhubUser: 'LucFabresse' project: 'CJSolver';
+	package: 'CJSolver';
+	load.
 
-(Smalltalk saveAs: 'codejam') 
+Smalltalk tools browser openOnClass: CJSolver.
+HelpBrowser openOn: CJHelp.
+
+(Smalltalk saveAs: 'cjsolver') 
     ifFalse: [ Smalltalk snapshot: false andQuit: true ].
 
