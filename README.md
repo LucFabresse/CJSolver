@@ -16,6 +16,9 @@ And for those "solved" problems, I commit here the correct solution to then be a
 HOW TO USE
 ==========
 
-1. Clone/download repository
-2. sh newImage.sh 				# this will download the Pharo VM + Pharo image + load the CJSolver code
-3. ./pharo-ui cjsolver.image
+`
+$ git clone https://github.com/LucFabresse/CJSolver.git CJSolver.git
+$ cd CJSolver.git
+$ sh newImage.sh 				# this will download the Pharo VM + Pharo image + load the CJSolver code
+$ ./pharo-ui cjsolver.image
+`
